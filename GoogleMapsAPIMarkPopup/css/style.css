@@ -1,0 +1,175 @@
+header {
+    background: url(../img/Karnak.jpg);
+    background-size: cover;
+    height: auto;
+    min-height: 40rem;
+}
+
+header h2 {
+    font-size: 11rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 14rem;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+header h5 {
+    font-size: 5rem;
+    width: 78%;
+    text-align: right;
+    margin: -25px auto 0px;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    font-style: italic;
+    font-family: 'Bilbo', cursive;
+}
+
+#map {
+    width: 100%;
+    height: 60vh;
+}
+
+#dataBox .placeBox {
+    /* height: 20em; */
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-columns {
+    column-count: 2;
+}
+
+.fliterNav .card {
+    cursor: pointer;
+}
+
+.fliterNav .card:hover {
+    background: red;
+    border-bottom: 5px solid #000000;
+    color: #000000;
+    transition: all .2s ease-out;
+}
+
+
+/* fixed nav */
+nav {
+    width: 100%;
+    background: #7e5539;
+    margin-bottom: 10px !important;
+}
+
+nav li {
+    color: #000000;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 15px 20px;
+    line-height: 45px;
+}
+
+.fixedNav nav {
+    position: fixed;
+    box-shadow: 0 5px #c3c1c1;
+    top: 0;
+    z-index: 100;
+    opacity: .9;
+}
+
+
+
+.fixedNav nav li {
+    font-size: 2rem;
+    margin: 0px 2rem;
+    color: #ffffff !important;
+    transition: all .9s;
+    /* line-height: 120px; */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fixedNav nav li:hover {
+    text-shadow: 2px 2px #000000;
+    transition: all .4s;
+}
+
+.fixedNav nav li:hover p {
+    transition: all 1s;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+}
+
+.fixedNav .logo {
+    max-width: 500px;
+    font-size: 33px;
+    font-family: 'Lobster', cursive;
+    transition: all .9s;
+    height: auto;
+}
+
+.removefilter {
+    font-size: 10px;
+}
+
+.fixedNav .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.windoImg {
+    width: 30%;
+    float: right;
+    box-shadow: 1px 1px 1px 1px #696565;
+    margin: 5px;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    header {
+
+        min-height: 22rem;
+    }
+
+    header h5 {
+        margin-top: 0px;
+    }
+
+    header h2 {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+
+    header h5 {
+        font-size: 2.5rem;
+    }
+
+    .navbar,
+    .navbar * {
+        background-color: #7e5539 !important;
+        color: #ffffff !important;
+    }
+
+    .navbar-toggler-icon {
+        color: #ffffff !important;
+    }
+
+    .card-columns {
+        column-count: 2;
+    }
+
+    .fixedNav nav li {
+        font-size: 1.8rem;
+        line-height: 1.5rem;
+    }
+
+}
