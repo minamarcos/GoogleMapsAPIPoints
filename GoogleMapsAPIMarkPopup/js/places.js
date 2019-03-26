@@ -11,7 +11,7 @@ var places = [
       lat: 28.556259,
       lng: 33.974819
     },
-    iconImage: "../img/cross.png",
+    iconImage: "../images/cross.png",
     name: "St Anthony Monastery"
   },
   {
@@ -26,7 +26,7 @@ var places = [
       lat: 30.10586,
       lng: 31.20496
     },
-    iconImage: "../img/star.png",
+    iconImage: "../images/star.png",
     name: "Mohamed Ali Tawfeq palace"
   },
   {
@@ -41,7 +41,7 @@ var places = [
       lat: 29.81785,
       lng: 30.94858
     },
-    iconImage: "../img/cross.png",
+    iconImage: "../images/cross.png",
     name: "St Mena Monastery"
   },
   {
@@ -56,7 +56,7 @@ var places = [
       lat: 30.04636,
       lng: 31.26423
     },
-    iconImage: "../img/mosque.png",
+    iconImage: "../images/mosque.png",
     name: "Al-Azhar Mosque"
   },
   {
@@ -71,7 +71,7 @@ var places = [
       lat: 26.06996,
       lng: 32.08605
     },
-    iconImage: "../img/pherph.png",
+    iconImage: "../images/pherph.png",
     name: "karnak temple"
   },
   {
@@ -80,13 +80,13 @@ var places = [
       "Al-Rifa'i Mosque, is located in Cairo, Egypt, in Midan al-Qal'a, adjacent to the Cairo Citadel. The building is located opposite the Mosque-Madrassa of Sultan Hassan, which dates from around 1361, and was architecturally conceived as a complement to the older structure",
     type: "Islamic-Egypt",
     url: "xxxxxx",
-    img: "../img/ElRefaiMosqueinCairo.jpg",
+    img: "../images/ElRefaiMosqueinCairo.jpg",
     wikiLink: "https://en.wikipedia.org/wiki/Al-Rifa'i_Mosque",
     coords: {
       lat: 30.15503,
       lng: 31.31163
     },
-    iconImage: "../img/mosque.png",
+    iconImage: "../images/mosque.png",
     name: "Al-Rifa'i Mosque"
   },
   {
@@ -95,13 +95,13 @@ var places = [
       "Downtown Cairo was designed by prestigious French architects who were commissioned by Khedive Ismail during his visit to Paris, and since then he wanted to make the Egyptian Kingdom capital better than Paris and to be the jewel of the orient. It was he who stressed the importance of European style urban planning in Cairo, to include broad, linear gridded streets, geometric harmony and modern European architectural style. It was once home to the prosperous elite of late 19th and early 20th century Cairo. It is a relic of a bygone era — Egypt's Belle epoque — and demonstrates the vision for developing Egypt. Yet decades of neglect by the neighbourhood's landlords and tenants following the burning of most Cairo's buildings during the popular Cairo fire incident prior the 1952 Revolution led by Gamal Abdel Nasser, and the ensuing departure of the upper classes, have left ",
     type: "old-cairo",
     url: "https://en.wikipedia.org/wiki/Downtown_Cairo",
-    img: "../img/amadElDeenSt.jpg",
+    img: "../images/amadElDeenSt.jpg",
     wikiLink: "https://en.wikipedia.org/wiki/Downtown_Cairo",
     coords: {
       lat: 30.048369,
       lng: 31.246815
     },
-    iconImage: "../img/star.png",
+    iconImage: "../images/star.png",
     name: "Emad El-Deen St,Cairo Down Town"
   },
   {
@@ -110,13 +110,13 @@ var places = [
       "The Qasr El Nil Bridge, also commonly spelled Kasr El Nil Bridge, is a historic structure dating from 1931 and replaced the first bridge to span the Nile River in central Cairo, Egypt. It connects Tahrir Square in downtown Cairo to the moder",
     type: "old-cairo",
     url: "xxxxxx",
-    img: "../img/QasrElNeelBridge.jpg",
+    img: "../images/QasrElNeelBridge.jpg",
     wikiLink: "xxxxxxxxxxxxxx",
     coords: {
       lat: 30.043966,
       lng: 31.23162
     },
-    iconImage: "../img/star.png",
+    iconImage: "../images/star.png",
     name: "Qasr El Nil Bridge"
   },
   {
@@ -125,13 +125,13 @@ var places = [
       "The Monastery of Saint Pishoy (also spelled Bishoy, Pshoi, or Bishoi[1]) in Wadi El Natrun, Beheira Governorate, Egypt, is the most famous monastery of the Coptic Orthodox Church of Alexandria named after Pishoy. It is the easternmost of the four current monasteries of Wadi el Natrun",
     type: "Coptic-Egypt",
     url: "xxxxxx",
-    img: "../img/stbeshoy.jpg",
+    img: "../images/stbeshoy.jpg",
     wikiLink: "https://en.wikipedia.org/wiki/Monastery_of_Saint_Pishoy",
     coords: {
       lat: 30.359598,
       lng: 30.319314
     },
-    iconImage: "../img/cross.png",
+    iconImage: "../images/cross.png",
     name: "Monastery of Saint Pishoy"
   }
 ];
